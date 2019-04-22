@@ -108,7 +108,6 @@ def update_figure(selected_press, storage_value):
     }
 
     new_title='Municipal Loans Held by Top 50 Banks: {} {}'.format(quarter_names[current_quarter[-2:]], current_quarter[:4])
-    print(current_quarter[-2:])
 
     return bar_figure, total_figure, new_title
 
