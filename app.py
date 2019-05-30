@@ -92,17 +92,14 @@ def update_figure(selected_press, storage_value):
         x=munitotal.index,
         name='All',
         hoverinfo='skip',
-        marker=dict(
-            color=munitotal['Color'].values
-        ),
+        marker=dict(color=munitotal['Color'].values),
         ),],
         'layout': go.Layout(
             height=150,
             margin=go.layout.Margin(
                 l=400,
                 t=40),
-            xaxis=dict(
-                ticklen=8
+            xaxis=dict(ticklen=8
             )
         )
     }
